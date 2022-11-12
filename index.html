@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<div class='container'>
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
+		<nav>
+			<img src="logos/6.png" class="logo">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+			</ul>
+		</nav>
+		<div class="text-box">
+			<h1>LEARN <br>CODE</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+			<div class='row'>
+			<a href="gallery.html">Logos & Banners</a>
+			<a href="about.html">More Info <span>&#x27F6;</span></a>
+			</div>
+		</div>
+		<div class="social-icons">
+			<a href="https://www.instagram.com/mayukhroy007/?hl=en"><img src="images/instagram.png" ></a>
+            <a href="https://www.youtube.com/channel/UCSLS8tCSYBQ5BW1vBjlzakQ"><img src="images/youtube.png" ></a>
+		</div>
+		<div class="app-picture">
+          <img src="logos/LOGO (1).png" >
+        </div>
+	</div>
+<!-----cursor------>
+	<div id='cursor'></div>
+
+
+	<script>
+		var cursor= document.getElementById('cursor');
+
+		document.onmousemove = function(e){
+			cursor.style.left=(e.pageX - 25)+"px" ;
+			cursor.style.top=(e.pageY - 25)+"px" ;
+			cursor.style.display='block';
+		}
+	</script>
+
+</body>
+</html>
